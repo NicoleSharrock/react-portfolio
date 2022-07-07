@@ -1,0 +1,10 @@
+.aboutMe {
+    width: 80%;
+    margin: 10vh auto;
+}
+
+#me {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
