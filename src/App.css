@@ -2,14 +2,14 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../public/assets/images/bg1.jpeg);
+  background-color: rgb(109, 74, 51);
   background-size: 100% 8vh;
   color: white;
 }
 
 nav button {
   margin-right: 20px;
-  background-color: rgb(171, 142, 198);
+  background-color: rgb(187, 142, 114);
   color: white;
   border-radius: 8px;
 }

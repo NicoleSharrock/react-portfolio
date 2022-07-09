@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/Resume';
+import Header from './components/Contact';
 import Nav from './components/Nav';
 import About from './components/About';
 

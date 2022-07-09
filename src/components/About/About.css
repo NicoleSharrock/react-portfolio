@@ -1,10 +1,29 @@
+* {
+    font-family: sans-serif;
+    
+}
+
 .aboutMe {
+    background-color: rgb(225, 186, 138);
+    padding: 100px;
+}
+
+h2 {
     width: 80%;
-    margin: 10vh auto;
+    margin: 5vh auto;
+    text-align: center  ;
 }
 
 #me {
     width: 150px;
     height: 200px;
     border-radius: 50%;
+    float: left;
 }
+
+p {
+    margin: 11vh auto;
+    margin-right: 25px;
+}
+
+
