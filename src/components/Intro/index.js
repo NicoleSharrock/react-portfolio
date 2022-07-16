@@ -18,7 +18,7 @@ const Intro = (props) => {
                 midtoneColor: 0xa78c4a,
                 lowlightColor: 0x78540f,
                 baseColor: 0x895326,
-                speed: 1.50,
+                speed: 3.80,
                 zoom: 2.60
             }))
         }
