@@ -12,7 +12,7 @@ const Intro = (props) => {
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: false,
-                minHeight: 200.00,
+                minHeight: 400.00,
                 minWidth: 200.00,
                 highlightColor: 0xd4b46d,
                 midtoneColor: 0xa78c4a,
@@ -32,10 +32,9 @@ const Intro = (props) => {
                 <div className="container hero" id="Home">
                     <div className="row">
                         <div className="col-12 mt-4 pt-4 fs-1">
-                            <div className="text-center text-light" id="hero-text">
+                            <div className="text-center text-dark" id="hero-text">
                                 <p>
-                                    {/* Hello, I'm&nbsp;&nbsp; */}
-                                    <span id="fancy-text-hero">Nicole Sharrock-Hayes</span>
+                                    Nicole Sharrock-Hayes
                                     <br />
                                     Software Engineer!
                                 </p>

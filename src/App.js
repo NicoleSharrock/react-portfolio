@@ -23,7 +23,11 @@ function App() {
     <>
       <Nav />
       <Intro />
-      {/* <About /> */}
+      <div
+        data-aos="fade-up"
+        data-aos-offset="360">
+        <About />
+      </div>
       <Portfolio />
       <Resume />
       <Contact />

@@ -1,6 +1,7 @@
 .aboutMe {
-    background-color: rgb(225, 186, 138);
+    background-color: rgb(82, 57, 25);
     padding: 100px;
+    color: white;
 }
 
 h2 {
@@ -12,7 +13,7 @@ h2 {
 #me {
     width: 150px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 25%;
     float: left;
 }
 
