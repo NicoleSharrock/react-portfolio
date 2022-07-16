@@ -4,6 +4,7 @@ import image from "./nicole.jpeg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image'
 
 
 
@@ -16,27 +17,29 @@ function About() {
                 
                 <p> My name is Nicole Sharrock-Hayes I am a Full Stack Developer student. Currently in the process of a career change. I'm hoping one day to work with a big company and continue to help thier company grow with my HTML and CSS skills.</p>
             </div> */}
-            <Container className="bg-tana text-white rounded p-0">
-                <Row>
+
+
+            <div class="row justify-content-center">
+                <div class="col-4">
                     <Col lg={4} md={6} sm={12}>
-                        <img id="me" src={image} />
+                        <img src={image} />
                     </Col>
+                </div>
+                {/* <div class="col-4">
                     <Col lg={8} md={6} sm={12}>
-                        <h1 className="text-info">About</h1>
+                        <h1>About</h1>
                         <p>
                             My name is Nicole Sharrock-Hayes I am a Full Stack Developer student.
                             Currently in the process of a career change. I'm hoping one day to work
                             with a big company and continue to help thier company grow with my HTML
                             and CSS skills.
                         </p>
-
-
                     </Col>
-                </Row>
-            </Container>
+                </div> */}
+            </div>
 
 
-        </div>
+        </div >
     )
 }
 
