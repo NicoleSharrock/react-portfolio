@@ -23,7 +23,7 @@ function App() {
     <>
       <Nav />
       <Intro />
-      <About />
+      {/* <About /> */}
       <Portfolio />
       <Resume />
       <Contact />
