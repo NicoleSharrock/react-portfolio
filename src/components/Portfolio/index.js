@@ -1,43 +1,49 @@
 import React from "react";
-import roses from 
+import roses from "./roses.png"
+import bestsite from "./bestsite.png"
+import codequiz from "./codequiz.png"
+import notetaker from "./notetaker.png"
+import password from "./password.png"
+import workday from "./workday.png"
+
 
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: roddeit,
-            link: 'https://rodde-it.herokuapp.com/',
-            repo: 'https://github.com/Amir-Hackett/rodde-it'
+            src: roses,
+            link: 'https://nicolesharrock.github.io/Roses-Are-Red/',
+            repo: 'https://github.com/NicoleSharrock/Roses-Are-Red'
         },
         {
             id: 2,
-            src: recipe,
-            link: 'https://amir-hackett.github.io/RecipEZ/',
-            repo: 'https://github.com/Amir-Hackett/RecipEZ'
+            src: bestsite,
+            link: 'https://hidden-tundra-81095.herokuapp.com/generate',
+            repo: 'https://github.com/NicoleSharrock/Best-Site-No-Joke'
         },
         {
             id: 3,
-            src: pizza,
-            link: 'https://amhpizza.herokuapp.com/',
-            repo: 'https://github.com/Amir-Hackett/pizza-hunt'
+            src: codequiz,
+            link: 'https://nicolesharrock.github.io/code-quiz/',
+            repo: 'https://github.com/NicoleSharrock/code-quiz'
         },
         {
             id: 4,
-            src: deepThought,
-            link: 'https://ah-deep-thoughts.herokuapp.com/',
-            repo: 'https://github.com/Amir-Hackett/deep-thoughts'
+            src: notetaker,
+            link: 'https://quiet-earth-95705.herokuapp.com/',
+            repo: 'https://github.com/NicoleSharrock/note-taker'
         },
         {
             id: 5,
-            src: bookSearch,
-            link: 'https://ah-book-search.herokuapp.com/',
-            repo: 'https://github.com/Amir-Hackett/book-search'
+            src: password,
+            link: 'https://nicolesharrock.github.io/password-generator/',
+            repo: 'https://github.com/NicoleSharrock/password-generator'
         },
         {
             id: 6,
-            src: noteTaker,
-            link: 'https://ahackett-note-taker.herokuapp.com/',
-            repo: 'https://github.com/Amir-Hackett/note-taker'
+            src: workday,
+            link: 'https://nicolesharrock.github.io/day-scheduler/',
+            repo: 'https://github.com/NicoleSharrock/day-scheduler'
         },
     ];
 
@@ -64,7 +70,7 @@ const Portfolio = () => {
                             />
                             <div className="flex items-center justify-center">
                                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(link, '_blank')}>
-                                    Demo
+                                    Site
                                 </button>
                                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(repo, '_blank')}>
                                     GitHub
