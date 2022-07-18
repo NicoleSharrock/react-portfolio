@@ -12,7 +12,7 @@ const Intro = (props) => {
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: false,
-                minHeight: 400.00,
+                minHeight: 200.00,
                 minWidth: 200.00,
                 highlightColor: 0xd4b46d,
                 midtoneColor: 0xa78c4a,

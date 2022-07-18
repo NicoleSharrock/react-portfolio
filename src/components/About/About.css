@@ -1,25 +1,50 @@
-.aboutMe {
+.about-section {
     background-color: rgb(82, 57, 25);
     padding: 100px;
-    color: white;
+    color: tan;
 }
 
-h2 {
+.about-section p {
+    margin: 15px 15px 10px 15px;
+    padding: 15px 15px 10px 15px;
+    text-align: center;
+}
+
+h1 {
     width: 80%;
     margin: 5vh auto;
     text-align: center  ;
 }
 
-#me {
-    width: 150px;
-    height: 200px;
-    border-radius: 25%;
-    float: left;
+.cover img {     
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    background-size: 100% 100%;
 }
 
-p {
-    margin: 11vh auto;
-    margin-right: 25px;
-}
 
+
+
+/* .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 700px;
+    height: 500px;
+    top: 20%;
+    left: 25%;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+    animation: float 6s ease-in-out infinite;
+    -webkit-animation: float 6s ease-in-out infinite;
+    letter-spacing: .25rem;
+    overflow-y: scroll;
+} */
 
