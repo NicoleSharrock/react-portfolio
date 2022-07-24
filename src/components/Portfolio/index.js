@@ -8,80 +8,98 @@ import workday from "./workday.png"
 
 
 const Portfolio = () => {
-    const portfolios = [
-        {
-            id: 1,
-            src: roses,
-            link: 'https://nicolesharrock.github.io/Roses-Are-Red/',
-            repo: 'https://github.com/NicoleSharrock/Roses-Are-Red'
-        },
-        {
-            id: 2,
-            src: bestsite,
-            link: 'https://hidden-tundra-81095.herokuapp.com/generate',
-            repo: 'https://github.com/NicoleSharrock/Best-Site-No-Joke'
-        },
-        {
-            id: 3,
-            src: codequiz,
-            link: 'https://nicolesharrock.github.io/code-quiz/',
-            repo: 'https://github.com/NicoleSharrock/code-quiz'
-        },
-        {
-            id: 4,
-            src: notetaker,
-            link: 'https://quiet-earth-95705.herokuapp.com/',
-            repo: 'https://github.com/NicoleSharrock/note-taker'
-        },
-        {
-            id: 5,
-            src: password,
-            link: 'https://nicolesharrock.github.io/password-generator/',
-            repo: 'https://github.com/NicoleSharrock/password-generator'
-        },
-        {
-            id: 6,
-            src: workday,
-            link: 'https://nicolesharrock.github.io/day-scheduler/',
-            repo: 'https://github.com/NicoleSharrock/day-scheduler'
-        },
-    ];
-
     return (
-        <div
-            name="portfolio"
-            className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio"
-        >
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-                <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-                        Portfolio
-                    </p>
-                    {/* <p className="py-6">Check out some of my work right here</p> */}
-                </div>
-
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {portfolios.map(({ id, src, link, repo }) => (
-                        <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                            <img
-                                src={src}
-                                alt="projects"
-                                className="rounded-md duration-200 hover:scale-105"
-                            />
-                            <div className="flex items-center justify-center">
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(link, '_blank')}>
-                                    Site
-                                </button>
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(repo, '_blank')}>
-                                    GitHub
-                                </button>
-                            </div>
+        <div className="work-container">
+            <h1 className="project-heading">PROJECTS</h1>
+            <div className="project-container">
+                <div className="project-card">
+                    <img src={roses} alt="project one" />
+                    <h2 className="project-title">Roses-Are-Red</h2>
+                    <div className="pro-details">
+                        <div className="pro-btns">
+                            <a href={"https://nicolesharrock.github.io/Roses-Are-Red/"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Site
+                            </a>
+                            <a href={"https://github.com/NicoleSharrock/Roses-Are-Red"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Github
+                            </a>
                         </div>
-                    ))}
+                    </div>
+                </div>
+                <div className="project-card">
+                    <img src={bestsite} alt="project two" />
+                    <h2 className="project-title">Best-Site-No-Joke</h2>
+                    <div className="pro-details">
+                        <div className="pro-btns">
+                            <a href={"https://hidden-tundra-81095.herokuapp.com/generate"} className="btn" rel="noopener noreferrer" target="_blank">
+                                View
+                            </a>
+                            <a href={"https://github.com/NicoleSharrock/Best-Site-No-Joke"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                    <img src={codequiz} alt="project three" />
+                    <h2 className="project-title">Coding Quiz</h2>
+                    <div className="pro-details">
+                        <div className="pro-btns">
+                            <a href={"https://nicolesharrock.github.io/code-quiz/"} className="btn" rel="noopener noreferrer" target="_blank">
+                                View
+                            </a>
+                            <a href={"https://github.com/NicoleSharrock/code-quiz"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                    <img src={notetaker} alt="project one" />
+                    <h2 className="project-title">Note Taker</h2>
+                    <div className="pro-details">
+                        <div className="pro-btns">
+                            <a href={"https://quiet-earth-95705.herokuapp.com/"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Site
+                            </a>
+                            <a href={"https://github.com/NicoleSharrock/note-taker"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Github
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                    <img src={password} alt="project one" />
+                    <h2 className="project-title">Password Generator</h2>
+                    <div className="pro-details">
+                        <div className="pro-btns">
+                            <a href={"https://nicolesharrock.github.io/password-generator/"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Site
+                            </a>
+                            <a href={"https://github.com/NicoleSharrock/password-generator"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Github
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                    <img src={workday} alt="project one" />
+                    <h2 className="project-title">Workday Scheduler</h2>
+                    <div className="pro-details">
+                        <div className="pro-btns">
+                            <a href={"https://nicolesharrock.github.io/day-scheduler/"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Site
+                            </a>
+                            <a href={"https://github.com/NicoleSharrock/day-scheduler"} className="btn" rel="noopener noreferrer" target="_blank">
+                                Github
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    );
-};
 
-export default Portfolio;
+        </div>
+    )
+}
+
+export default Portfolio

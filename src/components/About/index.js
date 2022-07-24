@@ -12,7 +12,7 @@ function About() {
 
     return (
         <div className='about-section'>
-            <h1>ABOUT</h1>
+            <h1 className='about-title'>ABOUT</h1>
             <div className="cover">
                 <img src={Image} alt="cover" />
             </div>
