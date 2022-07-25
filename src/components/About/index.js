@@ -11,7 +11,7 @@ import Image from "./nicole.jpeg";
 function About() {
 
     return (
-        <div className='about-section'>
+        <div id="about" className='about-section'>
             <h1 className='about-title'>ABOUT</h1>
             <div className="cover">
                 <img src={Image} alt="cover" />

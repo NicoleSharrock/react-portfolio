@@ -9,7 +9,7 @@ import workday from "./workday.png"
 
 const Portfolio = () => {
     return (
-        <div className="work-container">
+        <div id="projects" className="work-container">
             <h1 className="project-heading">PROJECTS</h1>
             <div className="project-container">
                 <div className="project-card">
