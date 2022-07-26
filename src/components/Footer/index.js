@@ -2,10 +2,39 @@ import React from "react";
 
 function Footer() {
     return (
-        <div>
-            <footer>
-                <h2>Made with love Nicole Sharrock-Hayes &copy; 2022</h2>
-            </footer>
+        <div className="foot">
+            <a className="social-link"
+                href="https://github.com/NicoleSharrock">
+                <img
+                    src="/assets/images/github.png"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="About me logo"
+                />
+            </a>
+            <br />
+            <a className="social-link"
+                href="https://www.linkedin.com/feed/?trk=onboarding-landing">
+                <img
+                    src="/assets/images/linkedin.png"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="Projects logo"
+                />
+            </a>
+            <br />
+            <a className="social-link"
+                href="https://stackoverflow.com/users/edit/18598661">
+                <img
+                    src="/assets/images/stack-overflow.png"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="Contact logo"
+                />
+            </a>
         </div>
     );
 }

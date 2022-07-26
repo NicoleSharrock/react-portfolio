@@ -124,8 +124,14 @@ input[type="submit"] {
   color: tan;
 }
 
-/* .contact h1{
-  color: tan;
-  text-align: center;
-} */
+
+/* Footer style */
+
+.foot {
+  background-color: rgb(82, 57, 25);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 
