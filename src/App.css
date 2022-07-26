@@ -134,4 +134,10 @@ input[type="submit"] {
   justify-content: center;
 }
 
+/* Footer style */
+
+.name-display:hover{
+  color: aquamarine;
+
+}
 

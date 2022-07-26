@@ -13,9 +13,10 @@ function Nav() {
                             src="/assets/images/aboutme.png"
                             width="30"
                             height="30"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top name-display"
                             alt="About me logo"
                         />
+
                     </Navbar.Brand>
                     <br />
                     <Navbar.Brand href="#projects">
@@ -23,7 +24,7 @@ function Nav() {
                             src="/assets/images/projects.png"
                             width="30"
                             height="30"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top name-display"
                             alt="Projects logo"
                         />
                     </Navbar.Brand>
@@ -33,7 +34,7 @@ function Nav() {
                             src="/assets/images/contact.png"
                             width="30"
                             height="30"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top name-display"
                             alt="Contact logo"
                         />
                     </Navbar.Brand>
@@ -45,7 +46,7 @@ function Nav() {
                                 src="/assets/images/resume.png"
                                 width="30"
                                 height="30"
-                                className="d-inline-block align-top"
+                                className="d-inline-block align-top name-display"
                                 alt="Resume logo"
                             />
                         </a>
