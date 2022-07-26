@@ -26,7 +26,7 @@ function Footer() {
             </a>
             <br />
             <a className="social-link"
-                href="https://stackoverflow.com/users/edit/18598661">
+                href="https://stackoverflow.com/users/18598661/nicole-sharrock">
                 <img
                     src="/assets/images/stack-overflow.png"
                     width="30"
