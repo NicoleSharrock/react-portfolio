@@ -28,16 +28,6 @@ function Nav() {
                         />
                     </Navbar.Brand>
                     <br />
-                    <Navbar.Brand href="#resume">
-                        <img
-                            src="/assets/images/resume.png"
-                            width="30"
-                            height="30"
-                            className="d-inline-block align-top"
-                            alt="Resume logo"
-                        />
-                    </Navbar.Brand>
-                    <br />
                     <Navbar.Brand href="#contact">
                         <img
                             src="/assets/images/contact.png"
@@ -47,9 +37,22 @@ function Nav() {
                             alt="Contact logo"
                         />
                     </Navbar.Brand>
+                    <br />
+                    <Navbar.Brand href="#resume">
+                        <a className="resume-link"
+                            href="https://docs.google.com/document/d/1kwfJ5fuK71a4uEh4Vra1JaDffX473ljvpSsKuuqoiIU/edit?usp=sharing">
+                            <img
+                                src="/assets/images/resume.png"
+                                width="30"
+                                height="30"
+                                className="d-inline-block align-top"
+                                alt="Resume logo"
+                            />
+                        </a>
+                    </Navbar.Brand>
                 </Container>
             </nav>
-        </div>
+        </div >
     );
 }
 
