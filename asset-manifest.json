@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NicoleSharrock/react-portfolio/static/css/main.343201b6.css",
+    "main.js": "/NicoleSharrock/react-portfolio/static/js/main.9a94e15a.js",
+    "static/js/787.a2cb61a6.chunk.js": "/NicoleSharrock/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/bestsite.png": "/NicoleSharrock/react-portfolio/static/media/bestsite.a8e66d6dc0c06da7cf5f.png",
+    "static/media/workday.png": "/NicoleSharrock/react-portfolio/static/media/workday.71ea09461eab8fe616a3.png",
+    "static/media/codequiz.png": "/NicoleSharrock/react-portfolio/static/media/codequiz.11da8ce9c640aa2c3bea.png",
+    "static/media/password.png": "/NicoleSharrock/react-portfolio/static/media/password.ff710f865926c87bab56.png",
+    "static/media/roses.png": "/NicoleSharrock/react-portfolio/static/media/roses.c223eabe48006fcad303.png",
+    "static/media/nicole.jpeg": "/NicoleSharrock/react-portfolio/static/media/nicole.3dee9401d9bf55bbf42f.jpeg",
+    "static/media/notetaker.png": "/NicoleSharrock/react-portfolio/static/media/notetaker.4237c06c23a0af840db5.png",
+    "index.html": "/NicoleSharrock/react-portfolio/index.html",
+    "main.343201b6.css.map": "/NicoleSharrock/react-portfolio/static/css/main.343201b6.css.map",
+    "main.9a94e15a.js.map": "/NicoleSharrock/react-portfolio/static/js/main.9a94e15a.js.map",
+    "787.a2cb61a6.chunk.js.map": "/NicoleSharrock/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.343201b6.css",
+    "static/js/main.9a94e15a.js"
+  ]
+}
