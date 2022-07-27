@@ -18,7 +18,7 @@
     "vanta": "^0.5.22",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/NicoleSharrock/react-portfolio",
+  "homepage": "https://NicoleSharrock.github.io/react-portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
