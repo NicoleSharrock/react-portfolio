@@ -42,13 +42,13 @@ const Portfolio = () => {
                 </div>
                 <div className="project-card">
                     <img src={codequiz} alt="project three" />
-                    <h2 className="project-title">Coding Quiz</h2>
+                    <h2 className="project-title">Finders-Keepers</h2>
                     <div className="pro-details">
                         <div className="pro-btns">
-                            <a href={"https://nicolesharrock.github.io/code-quiz/"} className="btn" rel="noopener noreferrer" target="_blank">
+                            <a href={"https://morning-garden-68781.herokuapp.com/"} className="btn" rel="noopener noreferrer" target="_blank">
                                 View
                             </a>
-                            <a href={"https://github.com/NicoleSharrock/code-quiz"} className="btn" rel="noopener noreferrer" target="_blank">
+                            <a href={"https://github.com/NicoleSharrock/finders-keepers"} className="btn" rel="noopener noreferrer" target="_blank">
                                 Source
                             </a>
                         </div>
