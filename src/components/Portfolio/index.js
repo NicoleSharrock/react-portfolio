@@ -1,7 +1,7 @@
 import React from "react";
 import roses from "./roses.png"
 import bestsite from "./bestsite.png"
-import codequiz from "./codequiz.png"
+import finders from "./finders.png"
 import notetaker from "./notetaker.png"
 import password from "./password.png"
 import workday from "./workday.png"
@@ -41,7 +41,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src={codequiz} alt="project three" />
+                    <img src={finders} alt="project three" />
                     <h2 className="project-title">Finders-Keepers</h2>
                     <div className="pro-details">
                         <div className="pro-btns">
