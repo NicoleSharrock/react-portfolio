@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.343201b6.css",
-    "main.js": "/react-portfolio/static/js/main.8beea0a3.js",
+    "main.js": "/react-portfolio/static/js/main.d1b7d86e.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/bestsite.png": "/react-portfolio/static/media/bestsite.a8e66d6dc0c06da7cf5f.png",
     "static/media/workday.png": "/react-portfolio/static/media/workday.71ea09461eab8fe616a3.png",
-    "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.11da8ce9c640aa2c3bea.png",
     "static/media/password.png": "/react-portfolio/static/media/password.ff710f865926c87bab56.png",
+    "static/media/finders.png": "/react-portfolio/static/media/finders.86b400cec32faaa352fe.png",
     "static/media/roses.png": "/react-portfolio/static/media/roses.c223eabe48006fcad303.png",
     "static/media/nicole.jpeg": "/react-portfolio/static/media/nicole.3dee9401d9bf55bbf42f.jpeg",
     "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.4237c06c23a0af840db5.png",
     "index.html": "/react-portfolio/index.html",
     "main.343201b6.css.map": "/react-portfolio/static/css/main.343201b6.css.map",
-    "main.8beea0a3.js.map": "/react-portfolio/static/js/main.8beea0a3.js.map",
+    "main.d1b7d86e.js.map": "/react-portfolio/static/js/main.d1b7d86e.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.343201b6.css",
-    "static/js/main.8beea0a3.js"
+    "static/js/main.d1b7d86e.js"
   ]
 }
